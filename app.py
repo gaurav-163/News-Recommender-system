@@ -1,6 +1,6 @@
 import faiss
 import numpy as np
-from flask import Flask, request, render_template
+from flask import Flask, request, render_template, send_from_directory
 from sentence_transformers import SentenceTransformer
 
 # Load a pre-trained transformer model for text embeddings
