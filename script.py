@@ -1,2 +1,0 @@
-# C:/Users/chaud/AppData/Local/pypoetry/Cache/virtualenvs/news-recommender-system--SaUGz1K-py3.11/Scripts/Activate.ps1
-& "C:\Users\chaud\AppData\Local\pypoetry\Cache\virtualenvs\news-recommender-system--SaUGz1K-py3.11\Scripts\Activate.ps1"
