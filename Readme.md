@@ -6,7 +6,7 @@ The News Recommender System is a machine learning-based application that suggest
 ## Features
 - Uses **Sentence Transformers** to generate news article embeddings.
 - Implements **FAISS (Facebook AI Similarity Search)** for fast retrieval of similar news.
-- Provides a **Gradio-based** user interface for easy interaction.
+- Provides a **Flask-based** user interface for easy interaction.
 - Supports diverse and expanding news topics.
 
 ## Installation
@@ -18,10 +18,10 @@ To set up and run the News Recommender System, follow these steps:
    cd news-recommender
    ```
 
-2. **Create a virtual environment (optional but recommended):**
+2. **Create a virtual environment (recommended):**
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows use: venv\Scripts\activate
+   poetry install
+   poetry shell
    ```
 
 3. **Install dependencies:**
@@ -51,12 +51,12 @@ This will launch the Gradio UI, where users can enter a news topic to receive re
 Ensure you have the following installed:
 - `faiss`
 - `numpy`
-- `gradio`
+- `flask`
 - `sentence-transformers`
 
 Install them using:
 ```bash
-pip install faiss numpy gradio sentence-transformers
+pip install faiss numpy flask sentence-transformers
 ```
 
 ## Future Enhancements
@@ -67,6 +67,5 @@ pip install faiss numpy gradio sentence-transformers
 ## License
 This project is licensed under the MIT License.
 
-## Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss.
-
+<!-- ## Contributing -->
+<!-- Pull requests are welcome! For major changes, please open an issue first to discuss. -->
