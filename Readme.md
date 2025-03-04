@@ -49,7 +49,7 @@ This will launch the Gradio UI, where users can enter a news topic to receive re
 
 ## Dependencies
 Ensure you have the following installed:
-- `faiss`
+- `faiss-cpu`
 - `numpy`
 - `flask`
 - `sentence-transformers`
