@@ -31,7 +31,7 @@ To set up and run the News Recommender System, follow these steps:
 ## Usage
 Run the application using:
 ```bash
-python run app.py
+python app.py
 ```
 This will launch the Gradio UI, where users can enter a news topic to receive recommendations.
 
