@@ -14,8 +14,7 @@ To set up and run the News Recommender System, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/news-recommender.git
-   cd news-recommender
+   git clone https://github.com/gaurav-163/News-Recommender-system#
    ```
 
 2. **Create a virtual environment (recommended):**
